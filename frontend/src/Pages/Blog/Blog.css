@@ -1,0 +1,38 @@
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+    gap: 20px; /* Space between columns */
+}
+
+/* Categories section on the left */
+.blog-category {
+    /* border: 1px solid orange; */
+    padding: 20px;
+}
+
+/* Blog posts section in the center, spanning two rows on desktop */
+.blog-posts {
+    /* border: 1px solid orange; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media (max-width: 750px) {
+    .blog-container {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 20px;
+    }
+
+    /* Full width for each section in mobile view */
+    .blog-category,
+    .blog-posts,
+    .blog-trending {
+        flex: 1; /* Ensure they take full width */
+        max-width: none; /* Remove max-width for flexibility */
+    }
+}

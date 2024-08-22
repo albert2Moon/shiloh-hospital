@@ -1,0 +1,23 @@
+
+.category-card {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -15px;
+}
+.category-btn {
+    border: 2px solid var(--color3);
+    padding: 5px 1vw;
+    width: fit-content;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.category-card .active {
+    border: 2px solid var(--color3);
+    color: var(--color4);
+    background: var(--color3);
+}

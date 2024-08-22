@@ -1,0 +1,27 @@
+.donate-cta {
+    /* border: 1px solid orange; */
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 700px;
+}
+
+.donate-cta button {
+    border: none;
+    background: var(--color3);
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 3vw;
+    border-radius: 30px;
+}
+
+.donate-cta button a {
+    color: var(--color4);
+}
+
+@media (max-width:750px) {
+    .donate-cta {
+        margin: 0;
+        width: 100%;
+    }
+}

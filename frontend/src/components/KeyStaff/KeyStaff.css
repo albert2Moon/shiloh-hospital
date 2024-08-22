@@ -1,0 +1,9 @@
+.card-info p {
+    font-size: 20px;
+}
+
+.keystaff-cards {
+    /* border: 1px solid orange; */
+    width: 85%;
+    margin: auto;
+}

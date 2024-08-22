@@ -1,0 +1,135 @@
+.card-container {
+    /* border: 1px solid orange; */
+    margin: 0 auto 15px auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 90%;
+}
+.contact-card {
+    /* border: 1px solid orange; */
+    height: 200px;
+    width: 350px;
+    padding: 20px 30px;
+    margin: 10px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.location i {
+    color: #002e72bb;
+}
+
+
+.card-heading {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    width: 100%;
+}
+
+.card-icon {
+    border: 3px solid #f9f9f9;
+    /* background: #5E5EEE; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.contact-card {
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* Phone Card */
+  .contact-card.phone {
+    background: var(--color1);
+    color: #FFFFFF;
+  }
+  
+  /* Mail Card */
+  .contact-card.mail {
+    background: var(--color2);
+  }
+  
+  /* Location Card */
+  .contact-card.location {
+    background: var(--color3);
+  }
+  
+  .card-heading {
+    /* background-color: #5E5EEE; Primary Color */
+    color: #FFFFFF; /* White */
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .card-heading > h3 {
+    color: #FFFFFF;
+  }
+  
+  .card-icon i {
+    color: #f9f9f9; 
+    font-size: 26px;
+  }
+  
+  .contact-card a {
+    color: #ffffff;
+    font-size: 19px;
+    text-decoration: none;
+  }
+  
+  .contact-card a:hover {
+    color: #5E5EEE; /* Aqua */
+  }
+  
+  .contact-card p {
+    color: #FFFFFF;
+    font-size: 19px;
+    width: 200px;
+    
+  }
+  
+
+@media (max-width:750px) {
+    .card-container {
+        /* border: 1px solid orange; */
+        padding: 0;
+        margin: 10px auto;
+        width: 100%;
+    }
+    .contact-card {
+        margin-bottom: 30PX;
+    }
+
+    .swiper-pagination {
+        bottom: 0 !important;
+        display: none;
+    }
+    
+    .swiper-pagination-bullet {
+        background: #2C2C54;
+    }
+    
+    .swiper-pagination-bullet-active {
+        background: #5e5eeeab !important;
+    }
+}
+

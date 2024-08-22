@@ -1,0 +1,48 @@
+.top-post-container {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: -20px;
+    /* padding: 0 20px; */
+}
+
+.top-post-card {
+    /* border: 1px solid orange; */
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 430px;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(230, 230, 230);
+}
+.rank {
+    /* border: 1px solid orange; */
+    font-size: 2rem;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.top-card-details {
+    height: 100%;
+}
+
+.top-card-details h3 {
+    margin-bottom: 5px;
+    color: rgb(75, 75, 75);
+}
+
+.top-card-details h4 {
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}

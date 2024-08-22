@@ -1,0 +1,16 @@
+.appointment-container {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width:750px) {
+    .appointment-container {
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+}

@@ -1,0 +1,111 @@
+.mission-container {
+    /* border: 1px solid orange; */
+    padding: 10px 10vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.mission-card h2 {
+    font-weight: 500;
+    color: var(--color1);
+    font-size: max(4.2vw, 22px);
+    line-height: 1.1 !important;
+}
+
+.mission-card h3 {
+    color: #101513;
+}
+
+.mission-subheading {
+    /* border: 1px solid orange; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mission-dot {
+    height: 20px;
+    width: 5px;
+    /* background: #2C2C54; */
+    background: #ff4837;
+    border-radius: 30px;
+}
+
+.mission-heading {
+    /* border: 1px solid orange; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.mission-dot2 {
+    height: 80px;
+    width: 8px;
+    /* background: #2C2C54; */
+    background: #5E5EEE;
+    border-radius: 30px;
+}
+
+.mission-heading h2 span {
+    color: #ff4837;
+}
+
+.mission-card p {
+    /* color: #f0f0f0; */
+    font-size: 1.3vw;
+    width: 600px;
+}
+
+.mission-card:nth-of-type(1) {
+    /* border: 1px solid orange; */
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    background: var(--color3) url(../../assets/img4.jpeg) no-repeat center;
+    background-size: cover;
+    object-fit: contain;
+    object-position: center;
+}
+
+.mission-card:nth-of-type(2) {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+@media (max-width:750px) {
+    .mission-container {
+        flex-wrap: wrap;
+        padding: 10px 0;
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .mission-card h2{
+        font-size: 2.2rem;
+    }
+    .mission-card:nth-of-type(1) {
+        width: 100%;
+    }
+    .mission-card:nth-of-type(2) p {
+        /* border: 1px solid orange; */
+        width: 100%;
+        font-size: 20px;
+    }
+    .mission-dot {
+        height: 40px;
+        width: 8px;
+    }
+    .mission-dot2 {
+        height: 40px;
+    }
+    
+}

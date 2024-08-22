@@ -1,0 +1,98 @@
+.notice-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.notice-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.notice-card {
+    position: relative;
+    padding: 20px 20px 30px;
+    border-radius: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 10px rgb(220, 220, 220);
+}
+
+/* Ensure the notice card is fully expanded in desktop view */
+@media (min-width: 751px) {
+    .notice-card {
+        max-height: none;
+        /* No height restriction on desktop */
+    }
+}
+
+.notice-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.notice-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.notice-list>li {
+    list-style: none;
+}
+
+.toggle-btn {
+    display: block;
+    margin-top: 10px;
+    background: var(--color3);
+    color: var(--color4);
+    font-size: 18px;
+    padding: 10px 3vw;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 750px) {
+    .notice-card {
+        width: 100%;
+        max-height: 300px;
+        /* Restrict height in mobile view */
+        overflow: hidden;
+        /* Hide overflow */
+    }
+
+    .notice-btn {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .toggle-btn {
+        display: block;
+        /* Show button in mobile view */
+        margin-top: 10px;
+        background: var(--color3);
+        color: var(--color4);
+        font-size: 18px;
+        padding: 10px 3vw;
+        width: 100%;
+        border-radius: 30px;
+        border: none;
+    }
+
+    /* Expanded content on mobile view */
+    .notice-card.expanded {
+        max-height: none;
+        /* Remove height restriction when expanded */
+    }
+}

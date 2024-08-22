@@ -1,0 +1,146 @@
+.appointment-form {
+    /* border: 1px solid orange; */
+    height: auto;
+    width: 700px;
+    padding: 10px 20px;
+    /* margin: auto; */
+}
+
+.appointment-form>fieldset {
+    border-radius: 20px;
+    padding:  20px 10px 10px;
+    border: 2.5px solid var(--color3);
+    position: relative;
+}
+
+.appointment-form legend {
+    margin-left: 30px;
+    padding: 0 10px;
+    color: var(--color1);
+    font-weight: bold;
+}
+
+.appointment-form h3 {
+    color: #a0a0a0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#name {
+    width: 100%;
+    margin: 0 12px;
+}
+
+.appointment-form input,
+.appointment-form select {
+    border: none;
+    height: 45px;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    user-select: none;
+    color: rgb(100, 100, 100);
+    margin-bottom: 10px;
+}
+
+input[type="date"],
+input[type="time"] {
+    background: #F4F4F9;
+}
+
+input:focus,
+select:focus {
+    outline: 3px solid #5E5EEE;
+}
+
+
+.appointment-form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Background and arrow styling */
+    background: #F4F4F9 url('../../assets/chevron-down-solid.svg') no-repeat right 25px center;
+    background-size: 15px;
+}
+
+.appointment-form textarea {
+    border: none;
+    min-height: 200px;
+    width: 100%;
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: #F4F4F9;
+    user-select: none;
+    color: rgb(100, 100, 100);
+    margin-bottom: 10px;
+}
+
+.appointment-form textarea:focus {
+    outline: 3px solid #5E5EEE;
+}
+
+.form-card:nth-of-type(2) {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.form-card:nth-of-type(3) > div {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.form-card:nth-of-type(4) {
+    /* border: 1px solid orange; */
+    margin: 0 12px 20px;
+}
+
+.appointment-form-btn {
+    border: none;
+    font-size: 20px;
+    background: var(--color3);
+    color: var(--color4);
+    padding: 10px 3vw;
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+
+@media (max-width:750px) {
+    .appointment-form {
+        padding: 10px 0;
+    }
+    .appointment-form>fieldset {
+        border-radius: 20px;
+        padding:  20px 0 10px;
+        border: 2.5px solid var(--color3);
+        position: relative;
+    }
+
+    #name {
+        width: 100%;
+        margin: 0;
+    }
+
+    .form-card:nth-of-type(2) {
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 1px;
+    }
+    
+    .form-card:nth-of-type(3) > div {
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+    .appointment-btn {
+        /* border: 1px solid orange; */
+        padding: 10px;
+    }
+}

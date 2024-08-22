@@ -1,0 +1,13 @@
+.map-container {
+    /* border: 1px solid orange; */
+    border-radius: 20px;
+    overflow: hidden;
+    height: 350px;
+    box-shadow: 0 0 10px rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto; 
+    /* margin-top: 120px; */
+}

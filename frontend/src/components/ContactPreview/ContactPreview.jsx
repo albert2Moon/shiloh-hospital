@@ -13,6 +13,10 @@ const ContactPreview = () => {
 
         <div className='links-container'>
 
+        <div className="facebook">
+            <a href=""><i className='fa-brands fa-facebook'></i></a>
+        </div>
+
         <div className="whatsapp">
             <a href=""><i className='fa-brands fa-whatsapp'></i></a>
         </div>
@@ -20,7 +24,7 @@ const ContactPreview = () => {
             <a href=""><i className='fa-brands fa-instagram'></i></a>
         </div>
         <div className="twitter">
-            <a href=""><i className='fa-brands fa-twitter'></i></a>
+            <a href=""><i className='fa-brands fa-x-twitter'></i></a>
         </div>
         <div className="linkedin">
             <a href=""><i className='fa-brands fa-linkedin-in'></i></a>

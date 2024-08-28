@@ -40,9 +40,8 @@ const Navbar = () => {
                 <Link to='/' className={isActive('/')} onClick={closeMenu}>Home</Link>
                 <Link to='/about-us' className={isActive('/about-us')} onClick={closeMenu}>About Us</Link>
                 <Link to='/services' className={isActive('/services')} onClick={closeMenu}>Services</Link>
-                <Link to='/fundraising' className={isActive('/fundraising')} onClick={closeMenu}>Fundraising</Link>
-                <Link to='/blog' className={isActive('/blog')} onClick={closeMenu}>Blog</Link>
-                <Link to='/appointment' className={isActive('/appointment')} onClick={closeMenu}>Appointment</Link>
+                {/* <Link to='/blog' className={isActive('/blog')} onClick={closeMenu}>Blog</Link>
+                <Link to='/appointment' className={isActive('/appointment')} onClick={closeMenu}>Appointment</Link> */}
                 <Link to='/contact-us' className={isActive('/contact-us')} onClick={closeMenu}>Contact Us</Link>
             </ul>
             <div className="navbar-right">

@@ -4,7 +4,6 @@ import React from 'react'
 import './AboutUs.css'
 import AboutUsHeader from '../../components/AboutUSHeader/AboutUsHeader'
 import KeyStaff from '../../components/KeyStaff/KeyStaff'
-import AdvisoryBoard from '../../components/AdvisoryBoard/AdvisoryBoard'
 import OurHistory from '../../components/OurHistory/OurHistory'
 import OurMission from '../../components/OurMission/OurMission'
 
@@ -16,12 +15,8 @@ const AboutUs = () => {
     </div>
 
     <OurMission />
-
-    <KeyStaff />
-
     <OurHistory />
-
-    <AdvisoryBoard />
+    <KeyStaff />
 
     </>
   )

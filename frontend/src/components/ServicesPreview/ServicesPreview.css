@@ -130,7 +130,7 @@
 @media (max-width:750px) {
     .services-container {
         gap: 10px !important;
-        width: 100%;
+        width: 90%;
     }
     .services-card {
         width: 100% !important;

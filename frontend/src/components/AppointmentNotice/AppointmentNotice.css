@@ -23,14 +23,6 @@
     box-shadow: 0 0 10px rgb(220, 220, 220);
 }
 
-/* Ensure the notice card is fully expanded in desktop view */
-@media (min-width: 751px) {
-    .notice-card {
-        max-height: none;
-        /* No height restriction on desktop */
-    }
-}
-
 .notice-header {
     display: flex;
     flex-direction: row;
@@ -65,9 +57,12 @@
     .notice-card {
         width: 100%;
         max-height: 300px;
-        /* Restrict height in mobile view */
         overflow: hidden;
-        /* Hide overflow */
+        transition: max-height 0.3s ease; /* Smooth transition */
+    }
+
+    .notice-card.expanded {
+        max-height: 1000px; /* Increase this value as needed */
     }
 
     .notice-btn {
@@ -79,7 +74,6 @@
 
     .toggle-btn {
         display: block;
-        /* Show button in mobile view */
         margin-top: 10px;
         background: var(--color3);
         color: var(--color4);
@@ -88,11 +82,5 @@
         width: 100%;
         border-radius: 30px;
         border: none;
-    }
-
-    /* Expanded content on mobile view */
-    .notice-card.expanded {
-        max-height: none;
-        /* Remove height restriction when expanded */
     }
 }

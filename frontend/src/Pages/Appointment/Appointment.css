@@ -11,6 +11,6 @@
 @media (max-width:750px) {
     .appointment-container {
         flex-direction: row-reverse;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
     }
 }

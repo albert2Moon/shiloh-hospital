@@ -4,8 +4,8 @@ import './Home.css'
 import Header from '../../components/Header/Header'
 import ServicesPreview from '../../components/ServicesPreview/ServicesPreview'
 import AboutPreview from '../../components/AboutPreview/AboutPreview'
-import FundraisingPreview from '../../components/FundraisingPreview/FundraisingPreview'
 import ContactPreview from '../../components/ContactPreview/ContactPreview'
+import FAQs from '../../components/FAQs/FAQs'
 
 const Home = () => {
   return (
@@ -15,8 +15,8 @@ const Home = () => {
     </div>
       <AboutPreview />
       <ServicesPreview />
-      <FundraisingPreview />
       <ContactPreview />
+      <FAQs />
     </>
   )
 }

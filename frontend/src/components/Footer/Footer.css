@@ -124,10 +124,10 @@ footer {
     font-size: 20px;
 }
 .fcard:nth-of-type(2) a:hover {
-    color: #5E5EEE;
+    color: var(--color3);
 }
 .fcard:nth-of-type(2) li:hover {
-    color: var(--text2);
+    color: var(--color3);
     transform: translateX(2px);
 }
 
@@ -179,17 +179,23 @@ footer {
 .ftr-cont:nth-of-type(1) div:nth-of-type(1) i,
 .ftr-cont:nth-of-type(2) div:nth-of-type(1) i,
 .ftr-cont:nth-of-type(3) div:nth-of-type(1) i {
-    font-size: 22px;
+    font-size: 28px;
     /* color: orange; */
+}
+
+.ftr-cont:nth-of-type(2) div:nth-of-type(2) a:hover,
+.ftr-cont:nth-of-type(3) div:nth-of-type(2) a:hover {
+    color: var(--color3);
 }
 
 .ftr-cont:nth-of-type(4) {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 8px;
     margin-bottom: 0;
 }
+
 .ftr-cont:nth-of-type(4) span {
     border: 3px solid #d9d9d9;
     width: 50px;
@@ -204,6 +210,10 @@ footer {
 
 .ftr-cont:nth-of-type(4) span i {
     font-size: 30px;
+    transition: color 0.3s ease;
+}
+.ftr-cont:nth-of-type(4) span i:hover {
+    color: var(--color3);
 }
 
 .fcard hr {
@@ -219,7 +229,7 @@ footer {
 }
 
 .ftr3 a:hover {
-    color: #5E5EEE;
+    color: var(--color3);
 }
 
 

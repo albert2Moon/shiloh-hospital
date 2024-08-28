@@ -73,7 +73,7 @@ const OurServices = () => {
                     <div className="services-icon">
                     <i className="fa-solid fa-baby"></i>
                     </div>
-                    <h3>Child Services</h3>
+                    <h3>Pediatric Services</h3>
                 </div>
                 <p>Child Health Services</p>
                 <Link to='/services/child-health-services'> Read More <i className="fa-solid fa-arrow-right"></i></Link>

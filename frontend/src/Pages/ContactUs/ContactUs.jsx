@@ -7,6 +7,7 @@ import NewsLetters from '../../components/NewsLetters/NewsLetters'
 import ContactForm from '../../components/ContactForm/ContactForm'
 import ContactCards from '../../components/ContactCards/ContactCards'
 import SocialLinks from '../../components/SocialLinks/SocialLinks'
+import FAQs from '../../components/FAQs/FAQs'
 
 const ContactUs = () => {
   return (
@@ -19,6 +20,7 @@ const ContactUs = () => {
       <ContactCards />
       <SocialLinks />
       <EmbededMap />
+      <FAQs />
     </div>
   )
 }

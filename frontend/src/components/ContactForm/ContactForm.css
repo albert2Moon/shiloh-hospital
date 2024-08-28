@@ -123,6 +123,7 @@
 
 @media (max-width:750px) {
     .contact-form {
+        width: 90%;
         padding: 0;
     }
 

@@ -1,13 +1,16 @@
 .links-container {
     /* border: 1px solid orange; */
-    margin: 10px 0 40px 0;
+    width: 95%;
+    margin: 10px auto 40px auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
 
+.facebook,
 .whatsapp,
 .instagram,
 .twitter,
@@ -25,6 +28,7 @@
     box-shadow: 0 0 10px rgb(220, 220, 220);
 }
 
+.facebook a,
 .whatsapp a,
 .instagram a,
 .twitter a,
@@ -32,6 +36,7 @@
     text-decoration: none;
 }
 
+.facebook i,
 .whatsapp i,
 .instagram i,
 .twitter i,
@@ -42,6 +47,7 @@
     transition: color 0.3s ease;
 }
 
+.facebook:hover,
 .whatsapp:hover,
 .instagram:hover,
 .twitter:hover,

@@ -7,7 +7,6 @@ import Footer from './components/Footer/Footer';
 import Home from './Pages/Home/Home';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Services from './Pages/OurServices/Services';
-import Fundraiser from './Pages/Fundraiser/Fundraiser';
 import Blog from './Pages/Blog/Blog';
 import Appointment from './Pages/Appointment/Appointment';
 import ContactUs from './Pages/ContactUs/ContactUs';
@@ -20,11 +19,14 @@ import Hope from './components/OurServices/DetailedServices/Hope';
 import Maternal from './components/OurServices/DetailedServices/Maternal';
 import Products from './components/OurServices/DetailedServices/Products';
 import BackToTop from './components/BackToTop/BackToTop';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import { HashLink } from 'react-router-hash-link'; 
 
 function App() {
   return (
     <>
       <Navbar />
+      <ScrollToTop />
       <div className="app">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -38,7 +40,6 @@ function App() {
           <Route path="/services/hope-fund-services" element={<Hope />} />
           <Route path="/services/maternal-health-services" element={<Maternal />} />
           <Route path="/services/products" element={<Products />} />
-          <Route path="/fundraising" element={<Fundraiser />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/appointment" element={<Appointment />} />
           <Route path="/contact-us" element={<ContactUs />} />

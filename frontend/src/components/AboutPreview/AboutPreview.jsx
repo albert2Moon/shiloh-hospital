@@ -26,21 +26,25 @@ const AboutPreview = () => {
                         <div className="about-dot2"></div>
                         <h2>About Shiloh <span>Hospital</span></h2>
                     </div>
-                    <p>At Shiloh Hospital, we are committed to delivering outstanding healthcare with a focus on compassion, innovation, and excellence. Our dedicated team of professionals works tirelessly to provide personalized care, ensuring the well-being of every patient. Discover our story and how we are transforming healthcare in our community.</p>
+                    <p>Shiloh Medical & Fertility Center, a private medical establishment in Kampala, Uganda, is among the few centers offering fertility treatments alongside other specialized medical services.
+                        Founded in 2022 by a team of experienced healthcare professionals, the center was established to provide high-quality, affordable care to underserved communities. Shiloh Medical & Fertility Center is proud of its multidisciplinary team and is committed to delivering exceptional healthcare services. </p>
 
                     <div className="about-oneliners">
                         <div>
                             <div className="dot"></div>
-                            <h3>Compasionate</h3></div>
+                            <h3>Empathy</h3></div>
+                            <div>
+                            <div className="dot"></div>
+                            <h3>Social Responsibility</h3></div>
                         <div>
                             <div className="dot"></div>
-                            <h3>Innovative</h3></div>
+                            <h3>Respect</h3></div>
                         <div>
                             <div className="dot"></div>
-                            <h3>Trusted</h3></div>
+                            <h3>Integrity</h3></div>
                         <div>
                             <div className="dot"></div>
-                            <h3>Resilient</h3></div>
+                            <h3>Excellence</h3></div>
                     </div>
 
                     <div className="about-btns">

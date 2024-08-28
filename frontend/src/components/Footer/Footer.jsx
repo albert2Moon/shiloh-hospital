@@ -52,14 +52,17 @@ const Footer = () => {
               <i className="fa-solid fa-location-dot"></i>
             </div>
             <div>
-            <p>Bulabira Road, Najjera, Kampala</p>
+              <p>First Floor PJK House,
+                Bulabira Road,
+                Najjera A
+              </p>
             </div>
           </div>
           <div className="ftr-cont">
             <div>
               <i className="fa-solid fa-phone"></i>
             </div>
-            <div><a href="tel:+256123456789">+256 1234 56789</a></div>
+            <div><a href="tel:+256776711407">+256 776 711407</a></div>
           </div>
           <div className="ftr-cont">
             <div>
@@ -71,6 +74,11 @@ const Footer = () => {
           <hr />
 
           <div className="ftr-cont">
+          <span>
+              <a href="#">
+                <i className="fa-brands fa-facebook"></i>
+              </a>
+            </span>
             <span>
               <a href="#">
                 <i className="fa-brands fa-whatsapp"></i>
@@ -83,7 +91,7 @@ const Footer = () => {
             </span>
             <span>
               <a href="#">
-                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-x-twitter"></i>
               </a>
             </span>
             <span>

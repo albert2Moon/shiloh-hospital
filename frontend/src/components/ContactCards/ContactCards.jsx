@@ -26,7 +26,7 @@ const ContactCards = () => {
                         320: {
                             slidesPerView: 1,
                             spaceBetween: 10,
-                            loop:true,
+                            loop: true,
                         },
                         640: {
                             slidesPerView: 2,
@@ -49,7 +49,7 @@ const ContactCards = () => {
                                 </div>
                                 <h3>Phone</h3>
                             </div>
-                            <a href="tel:+256776711407">0776 711407</a>
+                            <a href="tel:+256776711407">+256 776 711407</a>
                         </div>
                     </SwiperSlide>
 
@@ -60,8 +60,8 @@ const ContactCards = () => {
                                     <i className="fa-solid fa-envelope"></i>
                                 </div>
                                 <h3>Email</h3>
-                            </div>                            
-                                <a href="mailto:">shilohhospital@gmail.com</a>
+                            </div>
+                            <a href="mailto:info@shilohhospital.com">info@shilohhospital.com</a>
                         </div>
                     </SwiperSlide>
 
@@ -73,7 +73,7 @@ const ContactCards = () => {
                                 </div>
                                 <h3>Location</h3>
                             </div>
-                            <p>Bulabira Road, Najjera, Kampala</p>
+                            <p>First Floor PJK House, Bulabira Road, Najjera A</p>
                         </div>
                     </SwiperSlide>
 

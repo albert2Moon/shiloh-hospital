@@ -5,7 +5,7 @@ import '../OurServices'
 import ServicesHeader from '../../ServicesHeader/ServicesHeader'
 import { Link } from 'react-router-dom'
 
-const Womens = () => {
+const Screening = () => {
 
   return (
     <>
@@ -14,7 +14,7 @@ const Womens = () => {
     <div className="detailed-card">
                 <div className="container-title">
                     <div className="title-dot"></div>
-                    <h2>Women's Health Services</h2>
+                    <h2>Screening Services</h2>
                 </div>
 
                 <div className="detailed-btn">
@@ -25,20 +25,16 @@ const Womens = () => {
                     <div className="content-card">
                         <div className="content-header">
                             <div className="dot"></div>
-                            <h3>Gynecological Services:</h3>
+                            <h3>Cancer Screening:</h3>
                         </div>
                         <ul className='content-list'>
-                            <li><strong>Fibroid Removal:</strong> Surgical procedure to remove uterine fibroids.</li>
-                            <li><strong>Ovarian Cyst Removal:</strong> Surgical procedure to remove cysts from the ovaries.</li>
-                            <li><strong>Hysterectomy (Uterus Removal):</strong> Surgical removal of the uterus.</li>
-                            <li><strong>Laparoscopy:</strong> Minimally invasive surgery using a laparoscope to diagnose and treat conditions within the abdomen.</li>
-                            <li><strong>Genital Plastic Surgery:</strong> Surgical procedures to alter the appearance or function of the genital area.</li>
-                            <li><strong>Endometriosis Treatment:</strong> Treatment for endometriosis, a condition where tissue similar to the lining of the uterus grows outside the uterus.
+                            <li><strong>Cervical Cancer:</strong> Screening tests like Pap smears to detect precancerous or cancerous cells in the cervix.
                             </li>
-                            <li><strong>Adenomyosis Treatment:</strong> Treatment for adenomyosis, a condition where the inner lining of the uterus breaks through the muscle wall of the uterus.</li>
+                            <li><strong>Breast Cancer:</strong> Screening methods such as mammograms to detect breast cancer.</li>
+                            <li><strong>Prostate Cancer:</strong> Tests such as PSA (Prostate-Specific Antigen) to screen for prostate cancer.</li>
                         </ul>
                     </div>
-                    
+                                        
                 </div>
 
             </div>
@@ -52,4 +48,4 @@ const Womens = () => {
   )
 }
 
-export default Womens
+export default Screening

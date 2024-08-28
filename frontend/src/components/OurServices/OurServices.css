@@ -98,6 +98,12 @@
 .services-card:nth-of-type(8) .services-icon {
     background-color: var(--color3);
 }
+.services-card:nth-of-type(9) .services-icon {
+    background-color: var(--color3);
+}
+.services-card:nth-of-type(10) .services-icon {
+    background-color: var(--color3);
+}
 
 .services-heading > h3 {
     color: #101315;

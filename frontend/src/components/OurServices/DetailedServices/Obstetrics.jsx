@@ -5,7 +5,7 @@ import '../OurServices'
 import ServicesHeader from '../../ServicesHeader/ServicesHeader'
 import { Link } from 'react-router-dom'
 
-const Womens = () => {
+const Obstetrics = () => {
 
   return (
     <>
@@ -22,20 +22,23 @@ const Womens = () => {
                 </div>
 
                 <div className='list-contents'>
+                    
                     <div className="content-card">
                         <div className="content-header">
                             <div className="dot"></div>
-                            <h3>Gynecological Services:</h3>
+                            <h3>Comprehensive Obstetric Care."</h3>
                         </div>
                         <ul className='content-list'>
-                            <li><strong>Fibroid Removal:</strong> Surgical procedure to remove uterine fibroids.</li>
-                            <li><strong>Ovarian Cyst Removal:</strong> Surgical procedure to remove cysts from the ovaries.</li>
-                            <li><strong>Hysterectomy (Uterus Removal):</strong> Surgical removal of the uterus.</li>
-                            <li><strong>Laparoscopy:</strong> Minimally invasive surgery using a laparoscope to diagnose and treat conditions within the abdomen.</li>
-                            <li><strong>Genital Plastic Surgery:</strong> Surgical procedures to alter the appearance or function of the genital area.</li>
-                            <li><strong>Endometriosis Treatment:</strong> Treatment for endometriosis, a condition where tissue similar to the lining of the uterus grows outside the uterus.
+                            <li><strong>Painless Labor:</strong>Techniques and medications used to reduce pain during childbirth.
                             </li>
-                            <li><strong>Adenomyosis Treatment:</strong> Treatment for adenomyosis, a condition where the inner lining of the uterus breaks through the muscle wall of the uterus.</li>
+                            <li><strong>Chorionic Villous Sampling:</strong>A prenatal test that involves taking a sample of tissue from the placenta to test for genetic conditions.
+                            </li>
+                            <li><strong>Amniocentesis:</strong>A prenatal test in which a small amount of amniotic fluid is removed to test for genetic conditions.</li>
+                            <li><strong>Fetal Doppler Velocimetry:</strong>A test that measures the blood flow in the fetus's blood vessels to assess the fetus's health.</li>
+                            <li><strong>NT Scan (Nuchal Translucency Scan):</strong>An ultrasound test done in the first trimester to screen for chromosomal abnormalities.
+                            </li>
+                            <li><strong>Antenatal Care:</strong>Routine care provided during pregnancy to monitor the health of the mother and fetus.</li>
+                            <li><strong>Delivery (Vaginal and Cesarean):</strong>The process of giving birth, either through the vaginal canal or by surgical incision (Cesarean section).</li>
                         </ul>
                     </div>
                     
@@ -52,4 +55,4 @@ const Womens = () => {
   )
 }
 
-export default Womens
+export default Obstetrics

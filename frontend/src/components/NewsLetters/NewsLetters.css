@@ -47,5 +47,9 @@
 }
 
 @media (max-width:750px) {
+    .newsletter-container {
+        width: 90%;
+        margin: auto;
+    }
     
 }

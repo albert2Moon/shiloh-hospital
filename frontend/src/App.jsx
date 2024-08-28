@@ -12,12 +12,14 @@ import Appointment from './Pages/Appointment/Appointment';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import General from './components/OurServices/DetailedServices/General';
 import Fertility from './components/OurServices/DetailedServices/Fertility';
-import Mens from './components/OurServices/DetailedServices/Mens';
+import Men from './components/OurServices/DetailedServices/Men';
 import Womens from './components/OurServices/DetailedServices/Womens';
 import Child from './components/OurServices/DetailedServices/Child';
-import Hope from './components/OurServices/DetailedServices/Hope';
-import Maternal from './components/OurServices/DetailedServices/Maternal';
-import Products from './components/OurServices/DetailedServices/Products';
+import Surgical from './components/OurServices/DetailedServices/Surgical';
+import Obstetrics from './components/OurServices/DetailedServices/Obstetrics';
+import Screening from './components/OurServices/DetailedServices/Screening';
+import Pcos from './components/OurServices/DetailedServices/Pcos';
+import Diagnosis from './components/OurServices/DetailedServices/Diagnosis';
 import BackToTop from './components/BackToTop/BackToTop';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import { HashLink } from 'react-router-hash-link'; 
@@ -34,12 +36,14 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/services/general-services" element={<General />} />
           <Route path="/services/fertility-services" element={<Fertility />} />
-          <Route path="/services/mens-health-services" element={<Mens />} />
+          <Route path="/services/mens-health-services" element={<Men />} />
           <Route path="/services/women-health-services" element={<Womens />} />
-          <Route path="/services/child-health-services" element={<Child />} />
-          <Route path="/services/hope-fund-services" element={<Hope />} />
-          <Route path="/services/maternal-health-services" element={<Maternal />} />
-          <Route path="/services/products" element={<Products />} />
+          <Route path="/services/pediatric-services" element={<Child />} />
+          <Route path="/services/surgical-services" element={<Surgical />} />
+          <Route path="/services/Obstetrics-services" element={<Obstetrics />} />
+          <Route path="/services/screening-services" element={<Screening />} />
+          <Route path="/services/pcos-clinical-services" element={<Pcos />} />
+          <Route path="/services/diagnostic-services" element={<Diagnosis />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/appointment" element={<Appointment />} />
           <Route path="/contact-us" element={<ContactUs />} />

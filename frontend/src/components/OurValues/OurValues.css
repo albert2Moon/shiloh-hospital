@@ -10,12 +10,16 @@
     gap: 20px;
 }
 
-.value-card > .content-card {
+.value-card .content-card {
     height: 143.33px;
 }
 
 @media (max-width:750px) {
     .values-container {
+        /* border: 1px solid orange; */
         width: 90%;
+    }
+    .value-card.content-card {
+        width: 100%;
     }
 }

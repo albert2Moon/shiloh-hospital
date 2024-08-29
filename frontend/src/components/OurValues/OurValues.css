@@ -19,7 +19,12 @@
         /* border: 1px solid orange; */
         width: 90%;
     }
-    .value-card.content-card {
-        width: 100%;
+    
+    .value-card .content-card {
+        width: auto;
+    }
+
+    .value-card .content-card > p {
+        font-size: 17px;
     }
 }

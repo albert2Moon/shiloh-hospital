@@ -1,0 +1,21 @@
+.values-container {
+    /* border: 1px solid orange; */
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.value-card > .content-card {
+    height: 143.33px;
+}
+
+@media (max-width:750px) {
+    .values-container {
+        width: 90%;
+    }
+}

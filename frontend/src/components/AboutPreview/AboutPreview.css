@@ -62,7 +62,7 @@
 }
 .about-dot {
     height: 20px;
-    width: 5px;
+    width: 8px;
     /* background: #2C2C54; */
     background: #ff4837;
     border-radius: 30px;
@@ -76,7 +76,7 @@
     position: relative;
 }
 .about-dot2 {
-    height: 80px;
+    height: 60px;
     width: 8px;
     /* background: #2C2C54; */
     background: #5E5EEE;
@@ -111,6 +111,10 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.about-card:nth-of-type(2) p {
+    padding-left: 25px;
 }
 
 .about-oneliners {
@@ -173,7 +177,7 @@
     }
     .about-oneliners {
         /* flex-direction: column; */
-        justify-content: center;
+        justify-content: flex-start;
         gap: 10px;
     }
     .about-btns {

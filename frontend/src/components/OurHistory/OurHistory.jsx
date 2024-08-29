@@ -23,9 +23,9 @@ const OurHistory = () => {
                         <div className="history-dot2"></div>
                         <h2>Our <span>Journey</span></h2>
                     </div>
-                    <p>Shiloh Hospital was established in 1998 with a mission to provide top-tier healthcare services to the local community. Starting as a small clinic, the hospital has grown into a
-                full-service medical facility, offering a wide range of services from general care to specialized treatments.
-                Over the years, Shiloh Hospital has expanded its facilities and services to meet the growing needs of the community, while maintaining a strong focus on patient-centered care.</p>
+                    <p>Founded in 2022 as Shiloh Medical & Fertility Center in Kampala, Uganda, Shiloh Hospital was established by a team of experienced healthcare professionals to provide affordable, high-quality, super-specialized care to financially less privileged communities.
+                         The hospital has since grown into a multi-specialty center, offering a wide range of medical services with a commitment to empathy, social responsibility, respect, integrity, and excellence. 
+                         Shiloh Hospital is dedicated to enhancing the health and well-being of its community and aims to become the leading healthcare provider in Uganda and sub-Saharan Africa.</p>
 
                     
                 </div>

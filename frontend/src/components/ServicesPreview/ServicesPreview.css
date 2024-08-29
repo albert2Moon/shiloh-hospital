@@ -135,4 +135,13 @@
     .services-card {
         width: 100% !important;
     }
+
+    .services-link-btn {
+        width: 90%;
+        margin: auto;
+    }
+
+    .services-link-btn > button {
+        width: 100%;
+    }
 }

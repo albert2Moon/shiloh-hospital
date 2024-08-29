@@ -68,15 +68,18 @@ return (
                     <div className="faqs-card-heading">
                         <div><h2>{index + 1}.</h2></div>
                         <div><p>{faq.question}</p></div>
+                        <div className="faqs-card-dropdown">
+                        <i className={`fa-solid ${activeIndex === index ? 'fa-chevron-up' : 'fa-chevron-down'}`}></i>
+                    </div>
                     </div>
                     {activeIndex === index && (
                         <div className="faqs-card-content">
                             <p>{faq.answer}</p>
                         </div>
                     )}
-                    <div className="faqs-card-dropdown">
+                    {/* <div className="faqs-card-dropdown">
                         <i className={`fa-solid ${activeIndex === index ? 'fa-chevron-up' : 'fa-chevron-down'}`}></i>
-                    </div>
+                    </div> */}
                 </div>
             ))}
         </div>

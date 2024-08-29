@@ -58,6 +58,7 @@
     /* color: #f0f0f0; */
     font-size: 1.3vw;
     width: 600px;
+    padding-left: 25px;
 }
 
 .history-card:nth-of-type(1) {

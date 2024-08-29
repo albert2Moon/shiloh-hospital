@@ -29,6 +29,8 @@
 }
 
 .faqs-card-heading {
+    /* border: 1px solid orange; */
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -61,12 +63,28 @@
 .faqs-card-content {
     width: 95%;
     margin: auto;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-size: 20px;
 }
 
 .faqs-card-content p {
     color: #333333;
+}
+
+@media (max-width:750px) {
+    .faqs-card {
+        /* border: 1px solid orange; */
+        padding: 0 10px;
+    }
+    .faqs-card .faqs-card-heading {
+        height: 60px;
+    }
+
+    .faqs-card-heading p {
+        /* border: 1px solid orange; */
+        min-width: 95%;
+    }
+
 }
 
 
